@@ -1,3 +1,106 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// --- typography -----------------------------------------------------------
+
+body {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1rem; }
+
+// --- prose spacing --------------------------------------------------------
+
+.center article p {
+  line-height: 1.75;
+  margin-bottom: 1.1em;
+}
+
+.center article li {
+  line-height: 1.65;
+  margin-bottom: 0.25em;
+}
+
+.center article h2 {
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+}
+
+.center article h3 {
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+}
+
+// --- tables ---------------------------------------------------------------
+
+.center article table {
+  font-size: 0.88rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.4em 0;
+}
+
+.center article th {
+  font-weight: 500;
+  text-align: left;
+  padding: 0.4em 0.8em;
+}
+
+.center article td {
+  padding: 0.35em 0.8em;
+}
+
+// --- code -----------------------------------------------------------------
+
+code {
+  font-size: 0.82em;
+  font-weight: 400;
+}
+
+pre {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  border-radius: 4px;
+  padding: 1em 1.2em;
+  margin: 1.2em 0;
+}
+
+// --- sidebar --------------------------------------------------------------
+
+.sidebar {
+  font-size: 0.85rem;
+}
+
+#quartz-body .left .page-title a {
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+}
+
+// --- horizontal rules -----------------------------------------------------
+
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2em 0;
+  opacity: 0.5;
+}
+
+// --- mobile ---------------------------------------------------------------
+
+@media (max-width: 800px) {
+  .center article p {
+    line-height: 1.7;
+  }
+
+  h1 { font-size: 1.3rem; }
+  h2 { font-size: 1.05rem; }
+}

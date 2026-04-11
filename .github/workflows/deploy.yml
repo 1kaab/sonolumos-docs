@@ -18,16 +18,32 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout quartz
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Checkout sonolumos docs (private repo)
+        uses: actions/checkout@v4
+        with:
+          repository: 1kaab/sonolumos
+          token: ${{ secrets.DOCS_DEPLOY_TOKEN }}
+          path: _sonolumos
+          sparse-checkout: docs/obsidian
+
+      - name: Copy docs into Quartz content
+        run: cp -r _sonolumos/docs/obsidian content/obsidian
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build Quartz
         run: npx quartz build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

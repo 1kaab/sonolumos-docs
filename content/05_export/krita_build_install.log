@@ -1,0 +1,1476 @@
+==== Wed Feb 18 20:00:19 CET 2026 :: grep CMakeLists.txt ====
+81:install_pykrita_plugin(motion_csv_trace)
+==== Wed Feb 18 20:00:19 CET 2026 :: cmake configure ====
+-- Using CMake version: 4.2.3
+-- Krita version: 5.2.13
+-- Branding selected: default
+-- FindPythonLibrary: TRUE
+-- Python system site-packages directory: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/python3.13/site-packages
+CMake Warning at cmake/modules/FindPythonLibrary.cmake:68 (message):
+  CMAKE_PREFIX_PATH variable is not set, we might NOT be able to detect SIP
+  modules
+Call Stack (most recent call first):
+  CMakeLists.txt:340 (find_package)
+
+
+-- Krita site-packages directories for SIP v4: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/krita-python-libs
+-- Krita site-packages directories for SIP v5+: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/python3.13/site-packages
+-- Could not set up the appstream test. appstreamcli is missing.
+CMake Warning (dev) at CMakeLists.txt:823 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found SIP configuration but the sip executable could not be found.
+-- Found PyQt5 version: 5.15.11
+-- Warning: Property DESCRIPTION for package SDL2 already set to "low level access to audio, keyboard, mouse, joystick, and graphics hardware", overriding it with "Simple DirectMedia Layer 2"
+-- Found QtGui OpenGL support
+-- Found LittleCMS's fast float plugin
+-- Could NOT find xsimd (Required is at least version "8.1.0"), checked the following files:
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/cmake/xsimd/xsimdConfig.cmake (version 13.1.0)
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/cmake/xsimd/xsimdConfig.cmake (version 13.1.0)
+
+-- Could NOT find xsimd (Required is at least version "9"), checked the following files:
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/cmake/xsimd/xsimdConfig.cmake (version 13.1.0)
+
+-- Could NOT find xsimd (Required is at least version "10"), checked the following files:
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/cmake/xsimd/xsimdConfig.cmake (version 13.1.0)
+
+-- Could NOT find xsimd (Required is at least version "11"), checked the following files:
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/cmake/xsimd/xsimdConfig.cmake (version 13.1.0)
+
+-- Could NOT find xsimd (Required is at least version "12"), checked the following files:
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/cmake/xsimd/xsimdConfig.cmake (version 13.1.0)
+
+-- Detected Compiler: Clang 16.0.0.16000026
+-- Available architectures for xsimd: aarch64
+-- Poppler: Qt5 requires Core
+-- Found the following HarfBuzz libraries:
+--  HarfBuzz (required): /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libharfbuzz.dylib
+CMake Warning at CMakeLists.txt:1218 (message):
+  No externals download dir set, default location inside build tree is used.
+  Use -DEXTERNALS_DOWNLOAD_DIR to override
+
+
+Following objects are generated from the per-arch lib
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment/KoOptimizedCompositeOpFactoryPerArch_NEON64.cpp
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment/KoAlphaMaskApplicatorFactoryImpl_Scalar.cpp
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment/KoAlphaMaskApplicatorFactoryImpl_NEON64.cpp
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment/KoOptimizedPixelDataScalerU8ToU16FactoryImpl_Scalar.cpp
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment/KoOptimizedPixelDataScalerU8ToU16FactoryImpl_NEON64.cpp
+Following objects are generated from the per-arch lib
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image/kis_brush_mask_applicator_factories_NEON64.cpp
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image/kis_brush_mask_processor_factories_NEON64.cpp
+Following objects are generated from the per-arch lib
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/plugins/impex/heif/kis_heif_import_tools_Scalar.cpp
+    * /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/plugins/impex/heif/kis_heif_import_tools_NEON64.cpp
+Following objects are generated for the composition benchmark
+    * kis_composition_benchmark_NEON64 <- /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/benchmarks/kis_composition_benchmark_NEON64.cpp
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at _install/share/ECM/modules/ECMAddAppIcon.cmake:373 (elseif):
+  ELSEIF called with no arguments, it will be skipped.
+Call Stack (most recent call first):
+  _install/share/ECM/modules/ECMAddAppIcon.cmake:141 (_ecm_add_app_icon_categorize_icons)
+  krita/CMakeLists.txt:50 (ecm_add_app_icon)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+Broken tests:
+    * libs-flake-TestPointMergeCommand
+    * libs-flake-TestSvgText
+    * libs-flake-TestSvgTextCloned
+    * libs-flake-TestSvgTextRoundTrip
+    * libs-image-kis_transform_mask_test
+    * libs-image-kis_perspective_transform_worker_test
+    * libs-ui-KisPaintingAssistantsDecorationTest
+    * libs-ui-KisClipboardTest
+    * libs-ui-FreehandStrokeTest
+    * libs-ui-FreehandStrokeBenchmark
+    * libs-ui-KisPaintOnTransparencyMaskTest
+    * libs-ui-FillProcessingVisitorTest
+    * libs-ui-FilterStrokeTest
+    * libs-ui-KisSelectionManagerTest
+    * libs-ui-KisNodeManagerTest
+    * libs-ui-KisZoomAndPanTest
+    * libs-ui-KisActionManagerTest
+    * libs-ui-KisCategoriesMapperTest
+    * krita-filters-kis_all_filter_test
+    * krita-filters-kis_crash_filter_test
+    * plugins-impex-kis_png_test
+    * plugins-impex-kis_csv_test
+    * plugins-impex-KisSvgTest
+    * plugins-impex-KisHeifTest
+    * plugins-metadata-KisExifTest
+    * plugins-libpaintop-kis_linked_pattern_manager_test
+    * plugins-defaultpaintops-KisBrushOpTest
+    * plugins-tools-basictools-MoveStrokeTest
+    * plugins-tooltransform-TransformStrokeStrategyTest
+-- The following features have been enabled:
+
+ * Hide safe asserts, Don't show message box for "safe" asserts, just ignore them automatically and dump a message to the terminal.
+ * Lock free hash table, Use lock free hash table instead of blocking.
+ * Foundation Build, A Foundation build is a binary release build that can package some extra things like color themes. Linux distributions that build and install Krita into a default system location should not define this option to true.
+ * Limit long tests, Run long running unittests in a limited quick mode
+ * Enable updaters, Enable updaters/update notifications.
+
+-- The following OPTIONAL packages have been found:
+
+ * PythonLibrary (required version >= 3.8), Python Library, <https://www.python.org>
+   Required by the Krita PyQt plugin
+ * WebP (required version >= 1.2.0), <https://developers.google.com/speed/webp>
+   Required by the WebP plugin
+ * KSeExpr (required version >= 4.0.0.0), <https://invent.kde.org/graphics/kseexpr>
+   Required by the SeExpr generator layer
+ * OpenEXR, A library for handling OpenEXR high dynamic-range image files, <https://www.openexr.com/>
+ * JPEG, Free library for JPEG image compression. Note that libjpeg8 is NOT supported., <https://www.libjpeg-turbo.org>
+   Required by the Krita JPEG filter
+ * libjpeg-turbo (required version >= 2.1.3), libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems, as well as progressive JPEG compression on x86 and x86-64 systems., <https://www.libjpeg-turbo.org>
+   Required by the Krita JPEG and TIFF filters
+ * GIF, Library for loading and saving gif files., <http://giflib.sourceforge.net/>
+   Required by the Krita GIF filter
+ * HEIF (required version >= 1.11.0), Library for loading and saving heif files., <https://github.com/strukturag/libheif>
+   Required by the Krita HEIF filter
+ * OpenJPEG (required version >= 2.3.0), Library for loading and saving jp2000 files., <https://www.openjpeg.org/>
+   Required by the Krita JP2000 filter
+ * JPEGXL (required version >= 0.7.0), JPEG XL is a royalty-free raster-graphics file format that supports both lossy and lossless compression and is experimentally supported by Chrome, Firefox, and Edge., <https://github.com/libjxl/libjxl>
+   Required by the Krita JPEG-XL filter
+ * FFTW3, A fast, free C FFT library, <http://www.fftw.org/>
+   Required by the Krita for fast convolution operators and some G'Mic features
+ * OpenColorIO (required version >= 1.1.1), The OpenColorIO Library, <https://www.opencolorio.org>
+   Required by the Krita LUT docker
+ * PyQt5 (required version >= 5.6.0), Python bindings for Qt5., <https://www.riverbankcomputing.com/software/pyqt/download5>
+   Required by the Krita PyQt plugin
+ * Mlt7, Media Lovin' Toolkit (Multimedia Framework), <https://mltframework.org/>
+   Required to do audio/video syncrhonization and processing. No MLT = No Audio! 
+ * LibMyPaint (required version >= 1.4.0), MyPaint brush engine API for C/C++
+   Required for the MyPaint brush engine
+ * xsimd (required version >= 13), C++ wrappers for SIMD intrinsics, <https://github.com/xtensor-stack/xsimd>
+   Required by Krita for vectorization
+ * Poppler, A PDF rendering library, <https://poppler.freedesktop.org/>
+   Required by the Krita PDF filter.
+ * KF5KDcraw (required version >= 5.0.0), A thread-safe wrapper around libraw, <https://api.kde.org/libkdcraw/html/index.html>
+   Needed for reading RAW files
+
+-- The following RECOMMENDED packages have been found:
+
+ * GSL, <https://www.gnu.org/software/gsl>
+   Required by Krita's Transform tool.
+
+-- The following REQUIRED packages have been found:
+
+ * Python (required version >= 3.8)
+ * ECM (required version >= 5.22)
+ * KF5Config (required version >= 5.44.0)
+ * KF5WidgetsAddons (required version >= 5.44.0)
+ * KF5Completion (required version >= 5.44.0)
+ * KF5CoreAddons (required version >= 5.44.0)
+ * KF5GuiAddons (required version >= 5.44.0)
+ * KF5ItemViews (required version >= 5.44.0)
+ * KF5WindowSystem (required version >= 5.44.0)
+ * KF5 (required version >= 5.44.0)
+ * Qt5Widgets
+ * Qt5Xml
+ * Qt5Network
+ * Qt5PrintSupport
+ * Qt5Svg
+ * Qt5Test
+ * Qt5Concurrent
+ * Qt5Sql
+ * PNG
+ * boost_headers (required version == 1.80.0)
+ * boost_system (required version == 1.80.0)
+ * Boost (required version >= 1.65), Boost provides free peer-reviewed portable C++ source libraries., <https://www.boost.org>
+ * Immer
+ * Zug
+ * Lager
+ * ZLIB, Compression library, <https://www.zlib.net/>
+   Required by Krita's PNG and PSD support
+ * TIFF, TIFF Library and Utilities, <http://www.libtiff.org>
+   Required by the Krita TIFF filter
+ * SDL2, Simple DirectMedia Layer 2, <https://www.libsdl.org/>
+   Required for MLT to render audio buffers. Required **only** when MLT is found on the system.
+ * Eigen3 (required version >= 3.3), C++ template library for linear algebra, <http://eigen.tuxfamily.org>
+ * LibExiv2 (required version >= 0.16), Image metadata support, <http://www.exiv2.org>
+ * LCMS2 (required version >= 2.4), LittleCMS Color management engine, <http://www.littlecms.com>
+   Will be used for color management and is necessary for Krita
+ * Qt5
+ * QUAZIP (required version >= 0.6), A library for reading and writing zip files, <https://stachenov.github.io/quazip/>
+   Needed for reading and writing KRA and ORA files
+ * Qt5Gui (required version >= 5.15.0)
+ * Freetype (required version >= 2.11.0), A library for rendering glyphs, <https://download.savannah.gnu.org/releases/freetype>
+   Needed for rendering text vector shapes.
+ * HarfBuzz (required version >= 4.0.0), OpenType text shaping engine, <https://harfbuzz.github.io>
+   Needed for rendering text vector shapes.
+ * Fontconfig (required version >= 2.13.1)
+   Needed for getting font file information.
+ * libunibreak (required version >= 5.0), Implementation of the line breaking and word breaking algorithms as described in Unicode Standard Annex 14 and Unicode Standard Annex 29, <https://github.com/adah1972/libunibreak>
+   Needed for rendering text vector shapes.
+ * FriBidi (required version >= 1.0.6), GNU FriBidi, <https://github.com/fribidi/fribidi>
+   Needed by libraqm to perform bidirectional text layout.
+ * Qt5Core (required version >= 5.15.2)
+ * Gettext
+ * KF5I18n
+ * Threads
+
+-- The following features have been disabled:
+
+ * Install benchmarks, Install benchmarks into the installation root to make them packagable
+ * Crash on safe asserts, Crash unconditionally whenever a "safe" assert happens. Useful for running unittests
+ * Enable Broken Tests, Runs broken test when "make test" is invoked (use -DKRITA_ENABLE_BROKEN_TESTS=ON to enable).
+ * Build Qt Designer plugins, Builds Qt Designer plugins for Krita widgets (use -DBUILD_KRITA_QT_DESIGNER_PLUGINS=ON to enable).
+ * Precompiled Headers, precompiled headers make build process faster on some systems
+ * ASAN address sanitizer, crash Krita if it violates address access rules (-DECM_ENABLE_SANITIZERS=address)
+
+-- The following OPTIONAL packages have not been found:
+
+ * SIP (required version >= 4.19.13), Support for generating SIP Python bindings, <https://www.riverbankcomputing.com/software/sip/download>
+   Required by the Krita PyQt plugin
+
+-- Configuring done (1.2s)
+CMake Warning (dev) at CMakeLists.txt:734 (add_library):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /Users/kaab/Documents/Projects/44/development/krita-dev/krita/libs/image/commands/KisBatchUpdateLayerModificationCommand.cpp
+Call Stack (most recent call first):
+  libs/image/CMakeLists.txt:366 (kis_add_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (4.2s)
+-- Build files have been written to: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build
+==== Wed Feb 18 20:00:24 CET 2026 :: grep cmake_install.cmake ====
+==== Wed Feb 18 20:00:24 CET 2026 :: ninja install ====
+ninja: Entering directory `development/krita-dev/krita/_build'
+[1/12] Generating krita_SRCS.iconset/icon_16x16@2x.png
+[2/12] Generating krita_SRCS.iconset/icon_512x512@2x.png
+[3/12] Generating krita_SRCS.iconset/icon_128x128@2x.png
+[4/12] Generating krita_SRCS.iconset/icon_128x128.png
+[5/12] Generating krita_SRCS.iconset/icon_16x16.png
+[6/12] Generating krita_SRCS.iconset/icon_256x256.png
+[7/12] Generating krita_SRCS.iconset/icon_512x512.png
+[8/12] Generating ts...
+[9/12] Generating krita_SRCS.icns
+[10/12] Copying OS X Content krita/krita.app/Contents/Resources/krita_SRCS.icns
+[11/12] Generating mo...
+[11/12] Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sl/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sl/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sk
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sk/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sk/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mai
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mai/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mai/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/se
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/se/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/se/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ug
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ug/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ug/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uz
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uz/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uz/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pl/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pl/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/vi
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/vi/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/vi/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sq
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sq/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sq/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sv
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sv/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/sv/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ga
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ga/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ga/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/he
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/he/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/he/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ms
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ms/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ms/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/km
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/km/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/km/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uz@cyrillic
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uz@cyrillic/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uz@cyrillic/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nn
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nn/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nn/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/be
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/be/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/be/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/da
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/da/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/da/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mr/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mr/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/kk
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/kk/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/kk/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pt_BR
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pt_BR/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pt_BR/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ja
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ja/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ja/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/el
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/el/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/el/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/lv
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/lv/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/lv/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/oc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/oc/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/oc/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fy
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fy/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fy/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/it
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/it/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/it/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ca
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ca/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ca/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/zh_TW
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/zh_TW/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/zh_TW/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/is
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/is/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/is/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/cs
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/cs/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/cs/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ia
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ia/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ia/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ru
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ru/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ru/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/xh
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/xh/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/xh/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ro
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ro/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ro/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/zh_CN
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/zh_CN/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/zh_CN/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pt
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pt/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pt/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uk
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uk/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/uk/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pa
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pa/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/pa/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/en_GB
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/en_GB/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/en_GB/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mk
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mk/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/mk/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/bs
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/bs/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/bs/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ar
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ar/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ar/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/gl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/gl/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/gl/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hr/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hr/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hu
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hu/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hu/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nl/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nl/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/bg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/bg/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/bg/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ne
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ne/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ne/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ast
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ast/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ast/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/af
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/af/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/af/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nb/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nb/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hi
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hi/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hi/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ka
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ka/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ka/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/de
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/de/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/de/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/br
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/br/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/br/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ko
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ko/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ko/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ca@valencia
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ca@valencia/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ca@valencia/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fi
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fi/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fi/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/eo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/eo/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/eo/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/id
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/id/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/id/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fr/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fr/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hne
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hne/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/hne/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/es
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/es/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/es/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/et
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/et/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/et/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fa
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fa/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/fa/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/lt
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/lt/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/lt/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/cy
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/cy/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/cy/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nds
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nds/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/nds/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/eu
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/eu/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/eu/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ta
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ta/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/ta/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/th
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/th/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/th/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/tr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/tr/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/tr/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/wa
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/wa/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/wa/LC_MESSAGES/krita.mo
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/tg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/tg/LC_MESSAGES
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/locale/tg/LC_MESSAGES/krita.mo
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaversion.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaversion.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaversion.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritamacosutils.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritamacosutils.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritamacosutils.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaglobal.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaglobal.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaglobal.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaplugin.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaplugin.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaplugin.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritawidgetutils.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritawidgetutils.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritawidgetutils.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritawidgets.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritawidgets.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritawidgets.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritastore.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritastore.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritastore.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/styles/markers.svg
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaflake.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaflake.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaflake.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritabasicflakes.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritabasicflakes.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritabasicflakes.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapigment.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapigment.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapigment.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritacommand.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritacommand.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritacommand.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibbrush.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibbrush.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibbrush.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapsdutils.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapsdutils.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapsdutils.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritacolor.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritacolor.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritacolor.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaimage.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaimage.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaimage.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaui.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaui.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaui.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/osx.stylesheet
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/bin/AppImageUpdateDummy
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaimpex.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaimpex.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaimpex.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.dylib
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/ui found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/ui"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/impex found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/impex"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/color found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/color"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/brush found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/brush"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/psdutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/psdutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/metadata found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/metadata"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgets found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgets"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/flake found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/flake"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/multiarch found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/multiarch"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/command found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/command"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resourcewidgets found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resourcewidgets"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgetutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgetutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resources found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resources"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/koplugin found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/koplugin"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/store found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/store"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/global found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/global"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/version found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/version"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/macosutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/macosutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.19.0.0.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib"
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkis.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaresources.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaresources.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaresources.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritametadata.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritametadata.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritametadata.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaresourcewidgets.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaresourcewidgets.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaresourcewidgets.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapsd.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapsd.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritapsd.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritamultiarch.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritamultiarch.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritamultiarch.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaassistanttool.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/krita_tool_assistant.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_krita_tool_assistant.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_krita_tool_assistant.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisAssistantTool.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalcmsengine.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_colorspaces_extensions.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalayerdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasmallcolorselector.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaspecificcolorselector.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritadigitalmixer.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacolorselectorng.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/kis_colselng_color_patches.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/kis_colselng_color_triangle.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/kis_colselng_my_paint_shade_selector.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/ui found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/ui"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/impex found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/impex"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/color found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/color"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/brush found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/brush"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/psdutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/psdutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/metadata found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/metadata"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgets found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgets"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/flake found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/flake"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/multiarch found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/multiarch"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/command found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/command"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resourcewidgets found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resourcewidgets"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgetutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgetutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resources found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resources"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/koplugin found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/koplugin"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/store found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/store"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/global found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/global"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/version found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/version"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/macosutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/macosutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresetdocker.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib"
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritahistorydocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritachanneldocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaartisticcolorselector.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatasksetdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacompositiondocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapatterndocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagriddocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaarrangedocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalutdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaoverviewdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapalettedocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaanimationdocker.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/ui found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/ui"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/impex found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/impex"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/color found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/color"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/brush found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/brush"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/image"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/psdutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/psdutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/metadata found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/metadata"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgets found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgets"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/flake found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/flake"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/pigment"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/multiarch found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/multiarch"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/command found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/command"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resourcewidgets found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resourcewidgets"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgetutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/widgetutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resources found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/resources"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/koplugin found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/koplugin"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/store found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/store"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/global found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/global"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/version found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/version"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/macosutils found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_build/libs/macosutils"
+error: /Library/Developer/CommandLineTools/usr/bin/install_name_tool: no LC_RPATH load command with path: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib found in: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapresethistory.so (for architecture arm64), required for specified option "-delete_rpath /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib"
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasvgcollectiondocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritahistogramdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagamutmask.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/recorder.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritarecorderdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatouchdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalogdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasnapshotdocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritastoryboarddocker.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritawgcolorselector.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/WGColorSelector.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaimagesplit.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/imagesplit.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaclonesarray.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/clonesarray.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacolorrange.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/colorrange.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacolorspaceconversion.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/colorspaceconversion.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritametadataeditor.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/metadataeditor.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritamodifyselection.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/modify_selection.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaoffsetimage.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/offsetimage.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritarotateimage.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/rotateimage.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaseparatechannels.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/imageseparate.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritashearimage.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/shearimage.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalayergroupswitcher.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaresourcemanager.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/resourcemanager.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalayersplit.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/layersplit.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritawaveletdecompose.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/waveletdecompose.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaqmicinterface.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaqmicinterface.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaqmicinterface.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/include/kis_qmic_interface.h
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/include/kis_qmic_plugin_interface.h
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/include/kritaqmicinterface_export.h
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaqmic.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritabuginfo.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/buginfo.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasamplescreencolor.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/samplescreencolor.xmlgui
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritadbexplorer.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/kritaplugins/dbexplorer.xmlgui
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/dbexplorer.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritablurfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaextensioncolorsfilters.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacolorsfilters.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/colorsfilters.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaconvolutionfilters.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagaussianhighpassfilter.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/gaussianhighpass.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaembossfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaexample.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritafastcolortransferfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaimageenhancement.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritanoisefilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaoilpaintfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapixelizefilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaraindropsfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritarandompickfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaroundcornersfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasmalltilesfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaunsharpfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritawavefilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritalevelfilter.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritadodgeburn.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaphongbumpmap.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaposterize.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaindexcolors.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritanormalize.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/normalize.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagradientmap.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/gradientmap.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritathreshold.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/threshold.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritahalftone.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/halftone.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaedgedetection.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaconvertheighttonormalmap.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/convertheightnormalmap.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaasccdl.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/asccdl.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapalettize.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/palettize.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaresettransparent.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_shape_image.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_shape_paths.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagradientgenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacolorgenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapatterngenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasimplexnoisegenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritascreentonegenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritamultigridpatterngenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaseexprgenerator.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkra.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkra.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibkra.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritajpegimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritajpegexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_jpeg.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritatiffpsd.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritatiffpsd.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritatiffpsd.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatiffimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatiffexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_tiff.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapngimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapngexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_png.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacsvimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacsvexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_csv.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaexrimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaexrexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/exrchannels.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_exr.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapdfimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_pdf.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritajp2import.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_jp2.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_raw_import.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_raw.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasvgimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_svg.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaqimageioexport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaqimageioimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_qimageio.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaoraimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaoraexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_ora.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaxcfimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_xcf.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapsdimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritapsdexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_psd.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaqmlexport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatgaexport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatgaimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_tga.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaheightmapimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaheightmapexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_heightmap.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritabrushexport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritabrushimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_brush.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaspriterexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_spriter.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritakraimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritakraexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_kra.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagifexport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagifimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_gif.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaheifimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaheifexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_heif.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritakrzexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_krz.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritawebpexport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritawebpimport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_webp.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritajxlimport.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritajxlexport.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/krita_jxl.desktop
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaexifcommon.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaexifcommon.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritaexifcommon.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaexif.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaiptc.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaxmp.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibpaintop.19.0.0.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibpaintop.19.dylib
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/libkritalibpaintop.dylib
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritadefaultpaintops.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-paintbrush.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-eraser.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-duplicate.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritahairypaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-sumi.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritadeformpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-deform.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacurvepaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-curve.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaspraypaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-spray.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritafilterop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-filterop.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaexperimentpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-experiment.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaparticlepaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-particle.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritagridpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-grid.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritahatchingpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-hatching.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritasketchpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-sketch.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritacolorsmudgepaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-colorsmudge.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaroundmarkerpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita_roundmarkerop.svg
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritamolitpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita_molitop.svg
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatangentnormalpaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-tangentnormal.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-tangentnormal-preview.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/c)_Pencil_1_Sketch_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/c)_Pencil_1_Sketch_(mypaint)_prev.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/c)_Pencil_2b_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/c)_Pencil_2b_(mypaint)_prev.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/d)_Ink_pen_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/d)_Ink_pen_(mypaint)_prev.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/e)_Marker_Medium_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/e)_Marker_Medium_(mypaint)_prev.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/e)_Marker_Plain_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/e)_Marker_Plain_(mypaint)_prev.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/i)_Wet_Knife_Plus_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/i)_Wet_Knife_Plus_(mypaint)_prev.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/i)_Wet_Paint_Plus_(mypaint).myb
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/i)_Wet_Paint_Plus_(mypaint)_prev.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritamypaintop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/images/krita-mypaint.png
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritadefaulttools.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolPath.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolPencil.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_flaketools.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritaselectiontools.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectPolygonal.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectElliptical.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectSimilar.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectContiguous.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectRectangular.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectOutline.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectPath.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolSelectMagnetic.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatoolcrop.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolCrop.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatoolpolygon.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolPolygon.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatoolpolyline.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolPolyline.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatooltransform.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolTransform.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatooldyna.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_karbontools.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KarbonCalligraphyTool.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatoollazybrush.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatoolSmartPatch.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/SvgTextTool.action
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/krita_tool_svgtext.so
+-- Installing: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/lib/kritaplugins/kritatoolencloseandfill.so
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/KisToolEncloseAndFill.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/tools.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/dtd/krita.dtd
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/InteractionTool.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/PathTool.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/MoveTool.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/brushes/triangle.svg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/bundles/README
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/bundles/Krita_4_Default_Resources.bundle
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/bundles/Krita_Artists_SeExpr_examples.bundle
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/bundles/RGBA_brushes.bundle
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/bundles/Krita_3_Default_Resources.bundle
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Abstract_lines.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/01_canvas.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/02_rough-canvas.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/02b_WoofTissue.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/03_default-paper.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/04_paper-C-grain.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/05_paper-torchon.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/06_hard-grain.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/08_bump-relief.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/09_drawed_crosshatched.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/09b_drawed-CrossedLines.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/10_drawed_dotted.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/11_drawed_furry.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/12_drawed_vertical.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/13_drawed_swirl.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/14_texture-rock.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/15_texture-rockB.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/16_texture-woody.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/17_texture-melt.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/18_texture-bark.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/18b_WaveFlex.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/19_texture-crackle.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/20_texture-vegetal.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/21_texture-chainmail.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/22_texture-reptile.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/23-dynamic-screentone-A.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/24-dynamic-screentone-B.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/25-dynamic-screentone-C.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/26_brush-marks.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross01.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross03.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross04.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross05.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross06.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Cross07.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Crumpled_Paper.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Grid01.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Grid02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Grid03.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Grid04.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Grid05.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/HR_PastelPaper_02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/HR_Wall_Paper.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Maze_lines.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Pattern01.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Pattern02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Pattern03.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Pattern04.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Pattern05.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Pattern06.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Rough_Paper.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Rough_Wall_With_Impasto.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Sand_fine.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stars_Sized.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares01.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares03.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares04.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares05.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares06.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares07.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares08.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares09.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Squares10.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes03.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes04.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes05.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes06.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes07.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes08.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Stripes09.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Zigzag01.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Zigzag02.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Zigzag03.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/Zigzag04.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/fractal_pattern.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/generic_paper1.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/generic_paper2.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/hexacolBW__2.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0202_CLUS.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0202_GEN_.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0202_HORZ.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0202_VERT.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_ALT_.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_BL22.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_CLUS.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_CURL.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_DIAG.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_ELL2.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_ELL3.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_ELLS.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_GEN_.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_HORZ.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_SHUR.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_SLIC.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_VERT.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_WAV2.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_WAVE.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0404_ZORO.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_BL22.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_BL22_v.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_BUBL.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_CIRC.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_CLUS.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_DIAM.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_PANL.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_SPOT.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_SWRL.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_0808_WAVE.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/patterns/DITH_3232_CSTR.pat
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/BG-Krita2.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-eye-_Blue_.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-FG-Glare.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Fire-Blueish.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Fire-Burning-Cloud.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Fire-Dust-Blended.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Fire-Dust.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Fire-Incandescent.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Fire-Life-Span.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Haze-and-Atmosphere.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Light-Saber-_Use-FG-color_.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Nature-browns-copy.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Nature_Grass.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Nature-Pure-greens.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Nature-random-greens.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Simple-Smoke.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gradients/GPS-Steel-Bars.ggr
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/ACEScg-elle-V4-g10.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/ClayRGB-elle-V4-srgbtrc.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/ClayRGB-elle-V2-g22.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/WideRGB-elle-V2-g22.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/LargeRGB-elle-V2-g22.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V2-g10.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V2-g18.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V2-g22.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V2-srgbtrc.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V4-g10.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V4-g18.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V4-g22.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V4-srgbtrc.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V2-labl.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V4-labl.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V2-rec709.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Gray-D50-elle-V4-rec709.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/sRGB-elle-V2-g10.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/sRGB-elle-V2-srgbtrc.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Rec2020-elle-V4-g10.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Lab-D50-Identity-elle-V2.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/Lab-D50-Identity-elle-V4.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/XYZ-D50-Identity-elle-V4.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt601-7_bt1886_ycbcr_v2.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt601-7_bt1886_ycbcr_v4.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt601-7_ycbcr_v2.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt601-7_ycbcr_v4.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt709-6_bt1886_ycbcr_v2.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt709-6_bt1886_ycbcr_v4.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt709-6_ycbcr_v2.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/bt709-6_ycbcr_v4.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/README
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/scRGB.icm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/cmyk.icm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/krita25_lcms-builtin-sRGB_g100-truegamma.icc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color/icc/krita/ITUR_2100_PQ_FULL.ICC
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_animation.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_animation.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/animation/.source/Anim-Jp-EN.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/animation/.source/Anim-Jp-JP.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/animation/.directory
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/animation/Anim-Jp-EN.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/animation/Anim-Jp-JP.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_comics_empty.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_comics_empty.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/.source/a4_waffle_grid.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/.source/BD-EuroTemplate.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/.source/Comics-USTemplate.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/.source/Manga-JpTemplate.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/.directory
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/a4_waffle_grid.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/BD-EuroTemplate.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/Comics-USTemplate.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/comics/Manga-JpTemplate.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_DIN_A3_landscape.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_DIN_A3_landscape.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_DIN_A4_portrait.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_DIN_A4_portrait.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_ratio_1610.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_ratio_1610.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_ratio_2391.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_ratio_2391.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_ratio_43.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_ratio_43.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_web_design.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_web_design.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.source/Designcinema16_10_2484x1200_96dpiRGB_8bit_.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.source/Designcinema2.39_1_2484x1040_96dpiRGB_8bit_.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.source/DesignpresentationA3Landscape_4960x3508_300dpiRGB_8bit_.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.source/DesignpresentationA4portrait_2480x3508_300dpiRGB_8bit_.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.source/Designscreen4_3_2250x1680_96dpiRGB_8bit_.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.source/web_design.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/.directory
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/Designcinema16_10_2484x1200_96dpiRGB_8bit_.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/Designcinema2.39_1_2484x1040_96dpiRGB_8bit_.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/DesignpresentationA3Landscape_4960x3508_300dpiRGB_8bit_.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/DesignpresentationA4portrait_2480x3508_300dpiRGB_8bit_.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/Designscreen4_3_2250x1680_96dpiRGB_8bit_.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/design/web_design.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_dslr.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_dslr.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/.source/Canon_550D_5184x3456.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/.source/Canon_5Dmk3_5760x3840.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/.source/Nikon_D3000_3872x2592.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/.source/Nikon_D5000_4288x2848.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/.source/Nikon_D7000_4928x3264.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/.directory
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/Canon_550D_5184x3456.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/Canon_5Dmk3_5760x3840.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/Nikon_D3000_3872x2592.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/Nikon_D5000_4288x2848.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/dslr/Nikon_D7000_4928x3264.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/light_template_texture.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/pics/dark_template_texture.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture1024x10248bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture1k32bitscalar.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture1k8bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture2048x20488bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture256x2568bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture2k32bitscalar.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture2k8bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture4096x40968bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture4k32bitscalar.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture4k8bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture512x5128bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture8k32bitscalar.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.source/Texture8k8bitsrgb.kra
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/.directory
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture1024x10248bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture1k32bitscalar.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture1k8bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture2048x20488bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture256x2568bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture2k32bitscalar.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture2k8bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture4096x40968bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture4k32bitscalar.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture4k8bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture512x5128bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture8k32bitscalar.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/templates/texture/Texture8k8bitsrgb.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/storyboard_templates/storyboard_extemp_default.svg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Animation.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Big_Paint.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Big_Paint_2.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Big_Vector.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Default.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Small_Vector.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Storyboarding.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/VFX_Paint.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/workspaces/Minimal.kws
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/BreezeDark.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/BreezeHighContrast.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/BreezeLight.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/KritaNeutral.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/KritaBlender.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/KritaBright.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/KritaDark.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/KritaDarkOrange.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/color-schemes/KritaDarker.colors
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A1__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A1__600_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A2__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A2__600_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A3__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A3__600_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A4__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A4__600_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A5__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A5__600_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A6__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/A6__600_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Texture_1024x1024.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Texture_2048x2048.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Texture_256x256.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Texture_4096x4096.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Texture_512x512.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/US_Legal__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/US_Letter__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/US_Tabloid__300_ppi_.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Pixel_240x256.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Film_16_9_4K.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Film_64_27_4K_Wide.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/predefined_image_sizes/Film_4_3_4K.predefinedimage
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/input/clipstudiopaintcompatible.profile
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/input/kritadefault.profile
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/input/painttoolsaicompatible.profile
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/input/photoshopcompatible.profile
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/shortcuts/clip_studio_paint_compatible.shortcuts
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/shortcuts/krita_default.shortcuts
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/shortcuts/paint_tool_sai_compatible.shortcuts
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/shortcuts/photoshop_compatible.shortcuts
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/shortcuts/tablet_pro.shortcuts
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/a)_Eraser_Circle.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/b)_Basic-5_Size_default.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Basic_Lines-Dry.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Basic_Lines-Wet.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Basic_Lines-Wet-Pattern.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Basic_Round-Fringe_02.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Basic_Round-Grain.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Basic_Round-Grunge.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Flat_Big-Grain_Tilt.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Flat_Decay_Tilt.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Special_Blobs.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Special_Splats.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Spread.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Spread-Pattern.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Spread_WideArea.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/j)_WaterC_Water-Pattern.kpp
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Favorites.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Pixel_Art.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Digital.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Erasers.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/FX.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Ink.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Paint.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Sketch.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/paintoppresets/Textures.tag
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/concept-cookie.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/pixelart-16.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/pixelart-32.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/default.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/gradient.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/marker.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/ps.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/swatch-cmyk.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/swatch-colored-grey.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/swatche.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/swatch-rgb.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/web.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/palettes/animation-color-set.gpl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/symbols/BalloonSymbols.svg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/symbols/pepper_carrot_speech_bubbles.svg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/symbols/preset_icons.svg
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/00_01_eraser-mechanical.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/00_02_eraser-large.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/00_03_eraser-hard.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/00_04_eraser-kneaded.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/01_01_mechanical-pencil.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/01_01_pencil-black-stone.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/01_02_pencil-double-ring.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/01_04_graphite.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/02_01_charcoal-pencil-thin.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/02_02_charcoal-pencil-medium.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/02_03_charcoal-pencil-large.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/02_04_charcoal-block.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/03_01colored-pencil.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/03_02_chalk-square.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/03_03_pastel.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_01_technical-pen.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_02_gel-pen.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_03_inking_fine-line_tiny.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_04_inking_fine-line_medium.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_05_ink-pen-atom.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_06_ink-G-pen.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_07_inking_dynamic_pen.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_08_inking_dynamic_pen_though.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_09_inking_pen_bumpy.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_10_inking_pen_bumpy_though.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_11_inking_pen_calligraphic.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_12_rigger-brush.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_13_inking_brush.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_14_inking_brush_blurry.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_15_ink-brush.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_16_large-rounded-cut.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/04_17_ink-pen-glass.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_01_airbrush.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_02_thin-stylus-tablet.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_03_stylus-white.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_04_stylus.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_05_stylus-colored-ring.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_06_stylus-colored.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/05_07_stylus-experimental.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/06_01_marker.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/06_02_marker-old.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/06_03_marker-large.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/06_04_round_marker_detail.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/06_05_sketching_wide_47.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/06_06_sketching_wide_bristles.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_01_synthetic-thin.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_02_synthetic-medium.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_03_synthetic-filbert.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_04_synthetic-large-bright.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_05_synthetic-large-bright-used.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_06_oil-filbert.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_07_oil-flat-large.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_08_acrylic-rounded-used.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_09_acrylic-angled.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_10_acrylic-flat.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_11_acrylic-mop.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_12_wide_dull_round.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_13_wide_brush_blurry.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_14_watercolor-flat.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_15_acrylic-fan-used.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_16_acrylic-flat-old.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_17_synthetic-very-old.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/07_18_special-effect-used-brush.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/08_01_watercolor-brush-medium.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/08_02_oil-round-hard.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/08_03_sumi-e.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/08_04_wide_brush_big.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/09_01_blending-stump.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/09_02_blur_soft.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/09_03_knife.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/09_04_knife-rake.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/09_05_paint-roller.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/10_01_color-effect.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/10_02_adjustment-contrast.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/10_03_adjustment-dark.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/10_04_filter.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/10_05_deform.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/10_06_clone.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_01_wand.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_02_shape.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_03_experimental.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_03stamp.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_04_texture-indicator.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_05_screentone-indicator.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/11_06_grid.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_01_Mechanical_Pencil.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_02_Fineliner.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_03_Marker_Permanent.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_04_PenBrush_01.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_05_Pen_01.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_06_Pen_02.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_07_Pen_03.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_08_Graphite_stick.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_09_Pastel_Bar_01.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_10_Pastel_Bar_04.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/tool_icons/12_11_Pastel_Bar_02.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/addition.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/color.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/comic.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_tilt.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/edit-pen.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_rotation.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_10.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_15.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_30.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_45.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_60.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_75.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/emblem_angle_90.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/experimental.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/favorite.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/love.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/mechanical.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/mouse.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/multidirection.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/question.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/sketch.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/wet.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/emblem_icons/whirlpool.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/preset_icons/background.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/dc.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/exif.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/tiff.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/mkn.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/xmp.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/xmpmm.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/metadata/schemas/xmprights.schema
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gamutmasks/Atmosphere_With_Accent.kgm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gamutmasks/Atmospheric_Triad.kgm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gamutmasks/Complementary.kgm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gamutmasks/Dominant_Hue_With_Accent.kgm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gamutmasks/Shifted_Triad.kgm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/gamutmasks/Split_Complementary.kgm
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/seexpr_scripts/Disney_noisecolor2.kse
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/windowlayouts/Cockpit (laptop mode).kwl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/windowlayouts/Dual screen editing.kwl
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/donation/banner.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/etc/xdg/kritarc
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/1024x1024/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/128x128/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/16x16/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/22x22/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/256x256/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/32x32/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/48x48/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/512x512/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/64x64/apps/krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/scalable/apps/krita.svgz
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/16x16/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/22x22/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/32x32/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/48x48/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/64x64/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/128x128/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/256x256/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/512x512/mimetypes/application-x-krita.png
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/icons/hicolor/1024x1024/mimetypes/application-x-krita.png
+-- Installing: /Applications/KDE/krita_version
+-- Up-to-date: /Applications/KDE/krita.app
+-- Up-to-date: /Applications/KDE/krita.app/Contents
+-- Up-to-date: /Applications/KDE/krita.app/Contents/MacOS
+-- Installing: /Applications/KDE/krita.app/Contents/MacOS/krita
+-- Up-to-date: /Applications/KDE/krita.app/Contents/Resources
+-- Installing: /Applications/KDE/krita.app/Contents/Resources/krita_SRCS.icns
+-- Up-to-date: /Applications/KDE/krita.app/Contents/Info.plist
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/applications/org.kde.krita.desktop
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/krita.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/actions/kritamenu.action
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/metainfo/org.kde.krita.appdata.xml
+-- Up-to-date: /Users/kaab/Documents/Projects/44/development/krita-dev/krita/_install/share/krita/shortcuts

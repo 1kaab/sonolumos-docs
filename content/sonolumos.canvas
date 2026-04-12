@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"771134f94050bff9","x":105,"y":-60,"width":250,"height":60,"type":"text","text":""},
+		{"id":"home","type":"file","file":"00_home.md","x":-640,"y":-180,"width":260,"height":160},
+		{"id":"arch","type":"file","file":"01_architecture/overview.md","x":-300,"y":-260,"width":280,"height":180},
+		{"id":"audio","type":"file","file":"02_data_flow/audio_pipeline.md","x":-20,"y":-420,"width":260,"height":160},
+		{"id":"motion","type":"file","file":"02_data_flow/motion_pipeline.md","x":-20,"y":-210,"width":260,"height":160},
+		{"id":"routing","type":"file","file":"02_data_flow/routing_and_network.md","x":-20,"y":0,"width":260,"height":160},
+		{"id":"ui_dyn","type":"file","file":"03_ui/dynamics_tab.md","x":280,"y":-260,"width":260,"height":160},
+		{"id":"ui_set","type":"file","file":"03_ui/settings_tab.md","x":280,"y":-60,"width":260,"height":160},
+		{"id":"ui_route","type":"file","file":"03_ui/routing_tab.md","x":280,"y":140,"width":260,"height":160},
+		{"id":"brown","type":"file","file":"04_engine/brownian.md","x":580,"y":-200,"width":260,"height":160},
+		{"id":"temporal","type":"file","file":"04_engine/temporal_and_domains.md","x":580,"y":10,"width":260,"height":160},
+		{"id":"export","type":"file","file":"05_export/csv.md","x":860,"y":-200,"width":240,"height":140},
+		{"id":"perf","type":"file","file":"06_performance/observability.md","x":860,"y":10,"width":240,"height":140},
+		{"id":"glossary","type":"file","file":"glossary.md","x":-640,"y":40,"width":220,"height":140},
+		{"id":"decisions","type":"file","file":"decisions.md","x":-640,"y":220,"width":220,"height":140}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"home","fromSide":"right","toNode":"arch","toSide":"left"},
+		{"id":"e2","fromNode":"arch","fromSide":"right","toNode":"audio","toSide":"left"},
+		{"id":"e3","fromNode":"arch","fromSide":"right","toNode":"motion","toSide":"left"},
+		{"id":"e4","fromNode":"arch","fromSide":"right","toNode":"routing","toSide":"left"},
+		{"id":"e5","fromNode":"motion","fromSide":"right","toNode":"ui_dyn","toSide":"left"},
+		{"id":"e6","fromNode":"routing","fromSide":"right","toNode":"ui_route","toSide":"left"},
+		{"id":"e7","fromNode":"routing","fromSide":"right","toNode":"ui_set","toSide":"left"},
+		{"id":"e8","fromNode":"motion","fromSide":"right","toNode":"brown","toSide":"left"},
+		{"id":"e9","fromNode":"motion","fromSide":"right","toNode":"temporal","toSide":"left"},
+		{"id":"e10","fromNode":"motion","fromSide":"right","toNode":"export","toSide":"left"},
+		{"id":"e11","fromNode":"ui_dyn","fromSide":"right","toNode":"perf","toSide":"left"},
+		{"id":"e12","fromNode":"home","fromSide":"left","toNode":"glossary","toSide":"right"},
+		{"id":"e13","fromNode":"home","fromSide":"left","toNode":"decisions","toSide":"right"}
+	]
+}

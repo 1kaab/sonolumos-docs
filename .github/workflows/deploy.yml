@@ -31,7 +31,7 @@ jobs:
           sparse-checkout: docs/obsidian
 
       - name: Copy docs into Quartz content
-        run: cp -r _sonolumos/docs/obsidian content/obsidian
+        run: cp -r _sonolumos/docs/obsidian/. content/
 
       - uses: actions/setup-node@v4
         with:

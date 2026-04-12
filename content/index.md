@@ -6,7 +6,7 @@ Audio and sensor signals transformed into parametric spatial motion. A multi-dim
 
 Parameters are evolved. A DEAP-based genetic trainer searches the parameter space against structural objectives.
 
-Outputs reach anything that speaks UDP.
+Outputs are routable — OSC, serial, HTTP, CSV.
 
 ---
 

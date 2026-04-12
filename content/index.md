@@ -1,10 +1,12 @@
 ---
-title: sonolumos
+title: Signals as dynamic geometry
 ---
 
-Audio to spatial motion. A physics-inspired signal chain that transforms sound into parametric movement — field-of-view, azimuth, altitude — routed through geometry, medium, and hysteresis stages.
+Audio and sensor signals get transformed into parametric spatial motion through stages that model charge, mass, and memory. Deriving a multi-dimentional motion trajectory from the structure of sound, shaped by brownian drift.
 
-Outputs drive Stellarium, Krita, serial motors, OSC receivers, and anything that speaks UDP.
+Parameters are evolved and tuned. A DEAP-based genetic trainer searches the parameter space against structural objectives.
+
+Outputs reach anything that speaks UDP.
 
 ---
 

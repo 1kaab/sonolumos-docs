@@ -2,9 +2,9 @@
 title: Signals as dynamic geometry
 ---
 
-Audio and sensor signals get transformed into parametric spatial motion through stages that model charge, mass, and memory. Deriving a multi-dimentional motion trajectory from the structure of sound, shaped by brownian drift.
+Audio and sensor signals transformed into parametric spatial motion through stages that model charge, mass, and memory. A multi-dimensional trajectory derived from the structure of sound, shaped by Brownian drift.
 
-Parameters are evolved and tuned. A DEAP-based genetic trainer searches the parameter space against structural objectives.
+Parameters are evolved. A DEAP-based genetic trainer searches the parameter space against structural objectives.
 
 Outputs reach anything that speaks UDP.
 

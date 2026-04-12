@@ -2,7 +2,7 @@
 title: Signals as dynamic geometry
 ---
 
-Audio and sensor signals transformed into parametric spatial motion. A multi-dimensional trajectory derived from the structure of sound, shaped by Brownian drift that can be applied to scientific and artistic purposes.
+Audio and sensor signals transformed into parametric spatial motion. A multi-dimensional trajectory derived from the structure of sound, shaped by Brownian drift.
 
 Parameters are evolved. A DEAP-based genetic trainer searches the parameter space against structural objectives.
 

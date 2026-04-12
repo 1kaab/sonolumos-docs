@@ -23,11 +23,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Checkout sonolumos docs (private repo)
+      - name: Checkout sonolumos docs
         uses: actions/checkout@v4
         with:
           repository: 1kaab/sonolumos
-          token: ${{ secrets.DOCS_DEPLOY_TOKEN }}
           path: _sonolumos
           sparse-checkout: docs/obsidian
 
